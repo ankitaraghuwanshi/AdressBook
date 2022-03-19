@@ -39,8 +39,8 @@ namespace AddressBook
 
             Console.WriteLine("Enter Email");
             string Email = Console.ReadLine();
-
         }
+        
         class AddressBook
         {
             public static void Main(string[] agrs)
