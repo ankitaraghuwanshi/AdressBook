@@ -5,7 +5,6 @@ namespace AddressBook
 {
     class ContactsDetails
     {
-
         public string First_Name = "";
         public string Last_Name = "";
         public string Address = "";
