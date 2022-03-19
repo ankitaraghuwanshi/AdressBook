@@ -15,12 +15,8 @@ namespace AddressBook
         public string Phone_Number = "";
         public string Email = "";
 
-
         public ContactsDetails()
         {
-
-
-
             Console.WriteLine("Enter First_Name");
             string First_Name = Console.ReadLine();
 
