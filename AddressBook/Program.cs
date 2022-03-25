@@ -26,7 +26,6 @@ namespace AddressBook
             this.PhoneNumber = PhoneNumber;
             this.EmailId = EmailId;
         }
-       
         public override string ToString()
         {
             return " Details of " + FirstName + " " + LastName + " are: " + "Address: " + Address + " City: " + City + "\n"
@@ -34,6 +33,7 @@ namespace AddressBook
                                   + "                                   " + "Phone Number:" + PhoneNumber + "\n"
                                   + "                                   " + "EmailId: " + EmailId;
         }
+
         class Program
         {
             private ArrayList contactDetailsList;
@@ -163,5 +163,4 @@ namespace AddressBook
             }
         }
     }
-
 }
