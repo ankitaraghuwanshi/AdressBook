@@ -26,6 +26,7 @@ namespace AddressBook
             this.PhoneNumber = PhoneNumber;
             this.EmailId = EmailId;
         }
+       
         public override string ToString()
         {
             return " Details of " + FirstName + " " + LastName + " are: " + "Address: " + Address + " City: " + City + "\n"
@@ -107,7 +108,6 @@ namespace AddressBook
                 if (contactDetailsMap.ContainsKey(input.ToLower()))
                 {
                     contactDetailsMap.Remove(input.ToLower());
-                    Console.WriteLine("contact is deleted");
                 }
                 else
                 {
@@ -163,4 +163,5 @@ namespace AddressBook
             }
         }
     }
+
 }
