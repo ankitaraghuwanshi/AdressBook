@@ -107,6 +107,7 @@ namespace AddressBook
                 if (contactDetailsMap.ContainsKey(input.ToLower()))
                 {
                     contactDetailsMap.Remove(input.ToLower());
+                    Console.WriteLine("contact is deleted");
                 }
                 else
                 {
